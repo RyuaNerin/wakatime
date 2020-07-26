@@ -2,7 +2,7 @@ name: WakaTime stat update in README.md
 
 on:
   schedule:
-    - cron: '9 0 * * *'
+    - cron: '0 15 * * *'
 
 jobs:
   update-readme:
