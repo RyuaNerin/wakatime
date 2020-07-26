@@ -3,6 +3,7 @@ name: WakaTime stat update in README.md
 on:
   schedule:
     - cron: '0 15 * * *'
+    - cron: '53 15 * * *'
       
   workflow_dispatch:
     inputs:
